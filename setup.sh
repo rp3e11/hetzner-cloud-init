@@ -40,6 +40,7 @@ chmod +x /usr/local/sbin/apt-get
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get install -y jq ufw fail2ban
+apt-get install -y open-iscsi
 
 curl -o /usr/local/bin/update-config.sh https://raw.githubusercontent.com/vitobotta/hetzner-cloud-init/master/update-config.sh
 
